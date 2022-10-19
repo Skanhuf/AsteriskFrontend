@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+//Main background block
+.SSS{
+  padding: 10px;
+  background-color: rgba(204,229,255, .3);
+  border-radius: 25px;
+  max-width: 95%;
+  margin: 40px auto;
+
+ 
+}
+
+header{
+  .container{
+  background-color: #e7f6ff;
+  margin: 15px auto;
+  max-width: 90%;
+  border-radius: 30px;
+  font-size: 15px;
+  border: .1px solid #9db7c7;
+
+ //box-shadow: .5px -1px rgb(168, 185, 214);
+ }
+}
+
+.mainBody{
+
+  max-width: 90%;
+  ul{
+    padding-left: 0px;
+  }
+  li{
+    list-style-type: none;
+    
+   }
+  select{
+    border-radius: 12px;
+    font-size: 15px;
+    text-align: center;
+    background-color:rgba(204,229,255,0.1);
+    cursor: pointer;
+  }
+  select:hover{
+    border: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  select:after{
+    border: hidden;
+  }
+}
+.divButton{
+.connectButton{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 10px 50px;
+  }
+}
+
+.tableBase{
+  .record{
+    display: none;
+  }
+}
+
+.backgroundTable{
+  padding: 2px;
+  background-color: rgba(204,229,255, .3);
+  border-radius: 25px;
+  max-width: 95%;
+  margin: 40px auto;
+}
